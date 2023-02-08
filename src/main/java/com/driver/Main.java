@@ -16,7 +16,7 @@ public class Main {
             return x;
         }
         public double product(double x, double y) {
-            return x;
+            return y;
         }
     }
 }
