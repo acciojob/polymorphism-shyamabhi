@@ -5,17 +5,17 @@ public class Main {
         Product p = new Product();
         p.product(5,1);
         p.product(5,1,2);
-        p.product(5,4);
+        p.product(5.2,4.1);
 
     }
     public static class Product{
-        public int product(int x, int y) {
+        public static int product(int x, int y) {
             return x;
         }
-        public int product(int x, int y, int z) {
+        public static int product(int x, int y, int z) {
             return x;
         }
-        public double product(double x, double y) {
+        public static double product(double x, double y) {
             return y;
         }
     }
